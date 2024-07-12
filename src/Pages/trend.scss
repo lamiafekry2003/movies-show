@@ -1,0 +1,61 @@
+
+.buttons{
+   border: 1px solid #032541;
+   border-radius: 60px;
+   gap: 90px;
+}
+
+//*switch styles*/
+.trending-movies {
+   /* Container styles */
+   padding: 20px;
+ }
+ 
+ .trending-movies h1 {
+   /* Heading styles */
+   font-size: 24px;
+   margin-bottom: 10px;
+ }
+ 
+ .trending-movies p {
+   /* Loading/error message styles */
+   text-align: center;
+ }
+ 
+ .trending-movies ul {
+   /* List styles */
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ .trending-movies li {
+   /* Movie item styles */
+   display: inline-block;
+   margin-right: 20px;
+   margin-bottom: 10px;
+ }
+ 
+ .trending-movies img {
+   /* Poster image styles */
+   width: 150px;
+   height: 225px;
+ }
+ 
+ .trending-movies h2 {
+   /* Movie title styles */
+   font-size: 18px;
+   margin-top: 5px;
+ }
+ 
+ .time-window-toggle {
+   /* Toggle styles */
+   margin-top: 20px;
+ }
+ 
+ .time-window-toggle label {
+   /* Label styles */
+   display: block;
+   margin-bottom: 5px;
+ }
+ 
