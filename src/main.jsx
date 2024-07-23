@@ -6,7 +6,9 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import './index.css'
+import 'react-loading-skeleton/dist/skeleton.css'
+import 'react-circular-progressbar/dist/styles.css';
+import './index.css'
 import "./Style/style.scss"
 import { QueryClient, QueryClientProvider } from 'react-query';
 

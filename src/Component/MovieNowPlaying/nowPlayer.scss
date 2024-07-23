@@ -1,0 +1,27 @@
+$second-color: #17b7da;
+// .card{
+   
+//     width:15rem;
+//     border-radius:10px;
+//     border:none;
+//     // box-shadow:rgba(17, 12, 46, 0.15) 0px 48px 100px 0px
+//     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+// }
+.css-1ut8gmr-MuiPaper-root-MuiCard-root{
+    border-radius: 10px !important; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+    .css-anmq6p-MuiTypography-root{
+        padding: 0 !important;
+        margin: 0 !important;
+      &:hover{
+        color: $second-color;
+      }
+    }
+}
+.scorepopular{
+    position: relative;    
+    z-index: 66;
+    top: -30px;
+    left:  6px;
+    padding: 0;
+   }

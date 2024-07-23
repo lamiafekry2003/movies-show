@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <nav
-      className="navbar navbar-expand-lg"
+      className="navbar navbar-expand-lg fixed-top"
       style={{ backgroundColor: "#032541" }}
     >
       <div className="container">
@@ -14,19 +14,10 @@ export default function Navbar() {
         >
           MOVIES-SHOW
         </Link>
-        <button
-          className="navbar-toggler"
-          style={{ color: "#17b7da" }}
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNavDropdown">
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav">
             <li className="nav-item dropdown mx-2">
               <a
@@ -40,24 +31,24 @@ export default function Navbar() {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <Link className="dropdown-item" to="moviepopular">
+                  <NavLink className="dropdown-item" to="moviepopular">
                     Popular
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="movienowplay">
+                  <NavLink className="dropdown-item" to="movienowplay">
                     Now Playing
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="movieUpComing">
+                  <NavLink className="dropdown-item" to="movieUpComing">
                     Up Coming
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="movieTopRated">
+                  <NavLink className="dropdown-item" to="movieTopRated">
                     Top Rated
-                  </Link>
+                  </NavLink>
                 </li>
               </ul>
             </li>
